@@ -1,0 +1,14 @@
+{
+  "include": ["src/**/*.ts"],
+  "compilerOptions": {
+    "target": "es2020",
+    "lib": ["es2020"],
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "noEmit": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "strict": true
+  }
+}
